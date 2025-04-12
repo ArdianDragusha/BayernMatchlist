@@ -15,7 +15,6 @@ public class Competition {
     @OneToMany(mappedBy = "competition", cascade = CascadeType.ALL)
     private List<Match> matches;
 
-    // Constructors
     public Competition() {
     }
 
@@ -25,7 +24,6 @@ public class Competition {
         this.matches = matches;
     }
 
-    // Getters & Setters
     public Long getId() {
         return id;
     }

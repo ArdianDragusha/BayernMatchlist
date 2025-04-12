@@ -1,8 +1,7 @@
 package hh.backend.matchlist.domain;
 
 import jakarta.persistence.*;
-import java.util.List;
-import java.util.ArrayList;
+
 
 @Entity
 public class Match {

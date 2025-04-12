@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MatchlistApplication<matchlist>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "hh.backend.matchlist.MatchlistApplication",
+            "projectName": "matchlist",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
